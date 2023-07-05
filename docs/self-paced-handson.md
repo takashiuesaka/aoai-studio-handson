@@ -30,15 +30,15 @@ Azure OpenAI Serviceを利用するには、Azureポータル、もしくはAzur
 
 ## Azure OpenAI Studioを開く
 
-まず、Azure OpenAI Studioを開きましょう。
+Azure OpenAI Studioを開きましょう。
 
 - https://oai.azure.com/
 
-## デプロイを確認する
+## デプロイを確認する（環境を自分で準備していない場合）
 
-次に、Azure OpenAI Serviceを利用するにはまず、モデルをデプロイする必要があります。
+Azure OpenAI Serviceを利用するには、モデルが作成済みである必要があります。
 
-本ハンズオンでは、すでにデプロイを済ませてあるので、Azure OpenAI Studioの「デプロイ」画面を開き、GPT-3.5のモデル（「モデル名」に`gpt-35-turbo`と表示されている）のデプロイがあることを確認しておきましょう。
+ご自身で環境を準備する指示がなかった場合、既にモデルは作成してあります。Azure OpenAI Studioの「デプロイ」画面を開き、GPT-3.5のモデル（「モデル名」に`gpt-35-turbo`と表示されている）のデプロイがあることを確認してください。
 
 ![Azure OpenAI Studioでデプロイを確認する](./images/aoai-studio/deployment-001.png)
 
