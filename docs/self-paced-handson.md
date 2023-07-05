@@ -234,6 +234,7 @@ Azure OpenAI Serviceは、REST APIから利用できます。Azure OpenAI Studio
   ],
 ```
 
+## Postmanで実行する
 この画面からエンドポイントとキーも取得できるので、Postmanから実行してみましょう。
 
 | 項目 | 説明 |
@@ -277,7 +278,8 @@ Azure OpenAI Serviceは、REST APIから利用できます。Azure OpenAI Studio
 }
 ```
 
-VSCode の RestClientプラグインを使用して実行することもできます。
+## VSCode の REST Client プラグインで実行する
+VSCode の REST Client プラグインを使用して実行することもできます。 [REST Client プラグイン](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
 ![VSCodeのRestClinetで実行する](./images/vscode-restclient.png)
 
 これらの繰り返しで、GPT-3.5を用いた会話を実装することができます。
