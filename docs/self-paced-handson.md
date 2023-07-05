@@ -34,8 +34,6 @@ Azure OpenAI Serviceを利用するには、Azureポータル、もしくはAzur
 
 - https://oai.azure.com/
 
-※ 本来、Azure OpenAI Serviceを利用するには、Azureポータル、もしくはAzureCLIなどを使用してリソースをデプロイする必要があります。本ハンズオンでは事前にリソースをデプロイしていない場合があります。
-
 ## デプロイを確認する
 
 次に、Azure OpenAI Serviceを利用するにはまず、モデルをデプロイする必要があります。
