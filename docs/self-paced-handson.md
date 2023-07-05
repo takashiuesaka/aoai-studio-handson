@@ -4,11 +4,29 @@
 
 ## 注意事項
 
-Azure OpenAI Serviceはトークン数などに制限があります。本ハンズオンでは、みなさんに利用いただけるように環境を用意しておりますが、複数回の開催を予定しており多くの方に利用いただきたいので、節度を持った利用をお願いいたします。（とはいえ、故意に多量の入力をしたり、パラメータを上げすぎたりしなければ、大丈夫です。）
-
-詳しくは、下記ドキュメントをご参考ください。
+Azure OpenAI Serviceはトークン数などに制限があります。詳しくは、下記ドキュメントをご参考ください。
 
 - [Azure OpenAI Service のクォータと制限 - Azure Cognitive Services | Microsoft Learn](https://learn.microsoft.com/ja-jp/azure/cognitive-services/openai/quotas-limits)
+
+## 環境準備
+
+1. Azure OpenAI Service の使用申請
+
+ご自身の Azure サブスクリプションで Azure OpenAI Service を実行する場合、事前に申請が必要です（2023/7現在）。次のリンクから申請を行ってください。承認には数日かかる場合があります。
+
+- [Request Access to Azure OpenAI Service](https://aka.ms/oai/access)
+
+2. Azure OpenAI Service の作成とモデルのデプロイ
+
+Azure OpenAI Serviceを利用するには、Azureポータル、もしくはAzureCLIなどを使用して Azure OpenAI Service リソース及びモデルを作成する必要があります。次のリンクの内容に従って作成してください。
+
+モデルを作成する時、モデルは次のように作成してください。
+
+|選択するモデル|指定するモデル名|
+|---|---|
+|gpt-35-turbo|gpt-35-turbo|
+
+- [Azure OpenAI を使用してリソースを作成し、モデルをデプロイする](https://learn.microsoft.com/ja-jp/azure/cognitive-services/openai/how-to/create-resource?pivots=web-portal)
 
 ## Azure OpenAI Studioを開く
 
@@ -16,13 +34,13 @@ Azure OpenAI Serviceはトークン数などに制限があります。本ハン
 
 - https://oai.azure.com/
 
-※ 本来、Azure OpenAI Serviceを利用するには、Azureポータルなどからそのリソースをデプロイする必要があります。本ハンズオンでは、すでにデプロイ済みかつ会場の端末はAzureアカウントにサインイン済みなので、Azure OpenAI Studioをひらいてすぐ利用できます。
+※ 本来、Azure OpenAI Serviceを利用するには、Azureポータル、もしくはAzureCLIなどを使用してリソースをデプロイする必要があります。本ハンズオンでは事前にリソースをデプロイしていない場合があります。
 
 ## デプロイを確認する
 
 次に、Azure OpenAI Serviceを利用するにはまず、モデルをデプロイする必要があります。
 
-本ハンズオンでは、すでにデプロイを済ませてあるので、Azure OpenAI Studioの「デプロイ」画面を開き、GPT-3.5のモデル（「モデル名」に`gpt35-turbo`と表示されている）のデプロイがあることを確認しておきましょう。
+本ハンズオンでは、すでにデプロイを済ませてあるので、Azure OpenAI Studioの「デプロイ」画面を開き、GPT-3.5のモデル（「モデル名」に`gpt-35-turbo`と表示されている）のデプロイがあることを確認しておきましょう。
 
 ![Azure OpenAI Studioでデプロイを確認する](./images/aoai-studio/deployment-001.png)
 
